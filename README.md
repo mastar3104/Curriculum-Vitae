@@ -62,7 +62,7 @@
 |       ECサイトフロントエンドの刷新        | React, Next.js,　Typescript, storybook, k8s | PHPの独自フレームワークで実装されていたフロントページをNext.jsに刷新することで、今後の保守運用性を高めるプロジェクト<br>言語を切り替えるだけでなく、ReactコンポーネントのUTやStorybookを実装した |
 |      広告コンテンツ配信管理Webツール       |        vue.js, parcel, express, k8s        | エンジニアが運用作業を行っていた広告コンテンツの入稿を、非エンジニアの企画職メンバーが入稿できるようにするWebツールを作成<br>parcelとvue.jsを利用したFEと、DB操作を行うBEを分離したSPAで実装した  |
 |    ECサイト商品ページ用BFF APIの開発     |          Kotlin, Spring Boot, k8s          |       PC/SPとネイティブアプリでロジックが散らばってしまっていた商品ページのロジックを共通化したBFF APIの開発 <br>両ページの仕様を再整理し、不足していたドキュメント類の精査も同時に行った        |
-| ソーシャルゲーム風ゲーミフィケーションサービスのBE実装 |      Kotlin, Spring Boot, k8s, mysql       |                ECサイトの販促コンテンツとして実装したゲーミフィケーションサービスのBE<br数十万のユーザの購入情報を連携する必要がある、大規模データのシステム構築を行った                 |
+| ソーシャルゲーム風ゲーミフィケーションサービスのBE実装 |      Kotlin, Spring Boot, k8s, mysql       |                ECサイトの販促コンテンツとして実装したゲーミフィケーションサービスのBE<br>数十万のユーザの購入情報を連携する必要がある、大規模データのシステム構築を行った                 |
 |     店頭受け取り用在庫情報管理システムの開発     |      Kotlin, Spring Boot, k8s, Oracle      |                             外部システムから連携される在庫情報を整形してOracleに登録し、FE用にAPIを提供するシステムの新規開発                              |
 | ネイティブアプリ向けBFF APIのマイクロサービス化  |         Kotlin, Spring Boot, PaaS          |                十年近く前から稼働しているPHPでのWebAPIを、マイクロサービスとして一新しPaaS環境に載せ替え、開発・保守運用の効率をあげることを目的としたプロジェクト                 |
 | コマースライブ用RestAPI・Websocket改善  | node.js, express, Socket.io, mysql, Redis  |                     ネイティブアプリ・Webページから視聴可能なライブ配信情報を扱うResAPIとコメント・いいね投稿のWebSocketシステムの追加開発・改修                     |
